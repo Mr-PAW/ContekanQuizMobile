@@ -28,7 +28,6 @@ class _MovieDetailPageState extends State<MovieDetailPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // 1. Gambar Poster
             Image.network(
               widget.movie.imgUrl,
               width: double.infinity,
